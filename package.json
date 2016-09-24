@@ -1,0 +1,19 @@
+{
+  "name": "@dominicbarnes/mako-babel-precompile",
+  "version": "0.0.0",
+  "description": "My personal mako plugin bundle for precompiling ES6 modules into ES5 prior to publishing.",
+  "peerDependencies": {
+    "mako": "^1.0.0"
+  },
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "mako-babel": "^1.0.0",
+    "mako-buffer": "^1.0.0",
+    "mako-output": "^1.0.0",
+    "mako-stat": "^1.0.0",
+    "mako-write": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node index.js"
+  }
+}
